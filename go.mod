@@ -1,14 +1,16 @@
 module github.com/ziflex/aws-zero
 
-go 1.19
+go 1.24.0
+
+toolchain go1.24.7
 
 require (
-	github.com/aws/smithy-go v1.13.4
-	github.com/rs/zerolog v1.28.0
+	github.com/aws/smithy-go v1.23.0
+	github.com/rs/zerolog v1.34.0
 )
 
 require (
-	github.com/mattn/go-colorable v0.1.12 // indirect
-	github.com/mattn/go-isatty v0.0.14 // indirect
-	golang.org/x/sys v0.0.0-20210927094055-39ccf1dd6fa6 // indirect
+	github.com/mattn/go-colorable v0.1.14 // indirect
+	github.com/mattn/go-isatty v0.0.20 // indirect
+	golang.org/x/sys v0.36.0 // indirect
 )
